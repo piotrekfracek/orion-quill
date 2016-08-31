@@ -32,9 +32,11 @@ orion.attribute('quill', {
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 orion.attribute('quill', {
   label: "Label",
-  quill: {
-    modules: {
-      toolbar: {...}
+  autoform: {
+    quill: {
+      modules: {
+        toolbar: {...}
+      }
     }
   }
 })
@@ -45,5 +47,4 @@ orion.attribute('quill', {
 Demo and config api:
 --------------------
 
-[Check official quill docs  
-](https://quilljs.com/docs/quickstart/)
+[Check official quill docs](https://quilljs.com/docs/quickstart/)
