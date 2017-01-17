@@ -1,7 +1,7 @@
 Package.describe({
   name:    'piotrekfracek:orion-quill',
   summary: 'Quill.js plugin for orion.js',
-  version: '0.1.3',
+  version: '0.1.5',
   git:     'https://github.com/piotrekfracek/orion-quill'
 });
 
