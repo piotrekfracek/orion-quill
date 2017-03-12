@@ -9,12 +9,9 @@ ReactiveTemplates.onRendered('attribute.quill', function() {
 
   var defaultConfig = {
     modules: {
-      toolbar: [
-        [{ header: [1, 2, false] }],
-        ['bold', 'italic', 'underline']
-      ]
+      toolbar: true
     },
-    theme: 'snow'
+    theme: 'snow',
   }
 
   var element = this.$('.quill').get(0);

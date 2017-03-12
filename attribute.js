@@ -7,10 +7,6 @@ orion.attributes.registerAttribute('quill', {
     };
   },
   valueOut: function() {
-    if(this.find('.quill .ql-editor *').length <= 1) {
-      return this.find('.quill .ql-editor > p').html();
-    }else{
-      return this.find('.quill .ql-editor').html();
-    }
-  }
+    return this.find('.quill .ql-editor > p').html();
+  },
 });
